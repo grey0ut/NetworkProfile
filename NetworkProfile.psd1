@@ -42,10 +42,10 @@ PrivateData = @{
         Tags = @('Network','Wifi','NetworkCategory','NetworkProfile','Windows','PSEdition_Desktop')
 
         # A URL to the license for this module.
-        # LicenseUri = ''
+        LicenseUri = 'https://github.com/grey0ut/NetworkProfile/blob/main/LICENSE'
 
         # A URL to the main website for this project.
-        # ProjectUri = ''
+        ProjectUri = 'https://github.com/grey0ut/NetworkProfile'
 
         # A URL to an icon representing this module.
         # IconUri = ''
