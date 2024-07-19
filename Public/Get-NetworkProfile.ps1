@@ -75,6 +75,7 @@ Function Get-NetworkProfile {
             switch ($_) {
                 6  {"Wired Network"}
                 23  {"VPN"}
+                53 {"VPN"}
                 71  {"Wireless Network"}
                 243  {"Mobile Broadband"}
             }
