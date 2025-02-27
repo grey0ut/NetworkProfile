@@ -1,5 +1,5 @@
 <div align='center'>
-<img src='Assets/ProtectStrings.svg' />
+<img src='Assets/NetworkProfile.svg' />
 </div>  
 
 # NetworkProfile
