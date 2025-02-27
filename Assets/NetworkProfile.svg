@@ -1,0 +1,13 @@
+ <svg viewBox="0 0 200 100" xmlns="http://www.w3.org/2000/svg">
+    <style>
+        text {
+            fill : #4488FF;
+        }
+    </style>
+  <text x="50%" y="35%" text-anchor="middle" dominant-baseline="middle" font-size="36" font-family="monospace">
+        Network
+  </text>
+  <text x="50%" y="65%" text-anchor="middle" dominant-baseline="middle" font-size="36" font-family="monospace">
+		Profile
+  </text>
+</svg> 
