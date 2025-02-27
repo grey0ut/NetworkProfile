@@ -1,3 +1,7 @@
+<div align='center'>
+<img src='Assets/ProtectStrings.svg' />
+</div>  
+
 # NetworkProfile
 
 A micro module (Thanks [Kevin](https://powershellexplained.com/2019-04-11-Powershell-Building-Micro-Modules/)) for viewing, and changing some properties of, network connection profiles in Windows registry.
