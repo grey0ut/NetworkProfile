@@ -8,6 +8,16 @@ A micro module (Thanks [Kevin](https://powershellexplained.com/2019-04-11-Powers
 
 Born of a need  to change a network connection profile from "Public" to "Private" while **not** connected to that network.
 
+### Installing NetworkProfile  
+```powershell  
+# Powershell 5
+Install-Module NetworkProfile  
+  
+# Import  
+Import-Module NetworkProfile  
+Get-Command -Module NetworkProfile  
+```  
+
 # Get-NetworkProfile
 
 function to get all the current network profiles defined in registry.
