@@ -4,7 +4,7 @@
 RootModule = 'NetworkProfile.psm1'
 
 # Version number of this module.
-ModuleVersion = '1.4.1'
+ModuleVersion = '1.4.3'
 
 # Supported PSEditions
 CompatiblePSEditions = 'Desktop'
@@ -19,7 +19,7 @@ Author = 'Courtney Bodett'
 CompanyName = 'Grey0ut'
 
 # Copyright statement for this module
-Copyright = '(c) 2024 Courtney Bodett. All rights reserved.'
+Copyright = '(c) 2025 Courtney Bodett. All rights reserved.'
 
 # Description of the functionality provided by this module
 Description = 'Manage Network Profile information stored in the registry'
@@ -28,7 +28,7 @@ Description = 'Manage Network Profile information stored in the registry'
 PowerShellVersion = '5.1'
 
 # Format files (.ps1xml) to be loaded when importing this module
-FormatsToProcess = '.\Formats\NetworkProfile.ps1xml'
+FormatsToProcess = '.\Formats\NetworkProfile.format.ps1xml'
 
 # Functions to export from this module, for best performance, do not use wildcards and do not delete the entry, use an empty array if there are no functions to export.
 FunctionsToExport = 'Get-NetworkProfile', 'Remove-NetworkProfile', 'Set-NetworkProfile'
