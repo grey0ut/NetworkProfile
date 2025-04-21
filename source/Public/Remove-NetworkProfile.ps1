@@ -8,11 +8,13 @@ Function Remove-NetworkProfile {
     ProfileName to target for updating. Accepts pipeline input.
     .PARAMETER GUID
     Specify the GUID without braces for the network profile. Accepts pipeline input from Get-NetworkProfile
-    .NOTES
-    Version:        1.0
-    Author:         C. Bodett
-    Creation Date:  7/16/2024
-    Purpose/Change: initial script development
+    .EXAMPLE
+    PS> Get-networkprofile -ProfileName PSHSummit | Remove-NetworkProfile
+
+    Confirm
+    Are you sure you want to perform this action?
+    Performing the operation "Remove-Item" on target "HKLM:\SOFTWARE\Microsoft\Windows NT\CurrentVersion\NetworkList\Profiles\{4b2c4e83-90ca-4aa4-a321-2a7b08d3d669}".
+    [Y] Yes  [A] Yes to All  [N] No  [L] No to All  [S] Suspend  [?] Help (default is "Y"): y
     #>
     #Requires -RunAsAdministrator
     [CmdletBinding(DefaultParameterSetName="ProfileName",SupportsShouldProcess,ConfirmImpact="High")]

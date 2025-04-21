@@ -1,4 +1,14 @@
 Function Convert-NetworkProfileTimestamp {
+    <#
+    .SYNOPSIS
+    Convert binary time data from Network Profile registry keys to datetime object
+    .DESCRIPTION
+    Network Profiles are stored in the registry and two timestamp values stored in binary.  This function will convert those timestamps to a datetime object.
+    .PARAMETER RegTimeStamp
+    The binary array representing a timestamp
+    .EXAMPLE
+    Convert-NetworkProfileTimestamp -RegTimeStamp $Profile.GetValue("DateCreated")
+    #>
     Param (
         [Byte[]]$RegTimeStamp
     )

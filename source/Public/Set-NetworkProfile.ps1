@@ -14,11 +14,19 @@ Function Set-NetworkProfile {
     Change the description text for the network profile
     .PARAMETER Category
     Change the category for the network profile. Options are Private, Public or Domain
-    .NOTES
-    Version:        1.0
-    Author:         C. Bodett
-    Creation Date:  7/16/2024
-    Purpose/Change: initial script development
+    .EXAMPLE
+    PS$> Get-NetworkProfile -ProfileName PSHSummit  
+
+    ProfileName Description Managed Category DateCreated         NameType         DateLastConnected
+    ----------- ----------- ------- -------- -----------         --------         -----------------    
+    PSHSummit   PSHSummit   No      Public   4/8/2024 8:58:09 AM Wireless Network 4/10/2024 12:58:16 PM  
+    
+    PS$> Get-NetworkProfile -ProfileName PSHSummit | Set-NetworkProfile -Description "Powershell Rocks" -Category "Private"
+    PS$> Get-NetworkProfile -ProfileName PSHSummit  
+
+    ProfileName Description      Managed Category DateCreated         NameType         DateLastConnected    
+    ----------- -----------      ------- -------- -----------         --------         -----------------
+    PSHSummit   Powershell Rocks No      Private  4/8/2024 8:58:09 AM Wireless Network 4/10/2024 12:58:16 PM
     #>
     #Requires -RunAsAdministrator
     [CmdletBinding(DefaultParameterSetName="ProfileName")]
