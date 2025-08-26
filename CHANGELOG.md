@@ -5,7 +5,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
-### Added
+### Fixed
 
-- updated help info to include examples.
+- Issue where a network profile has no Category key in registry throws an error.
 
